@@ -1,0 +1,80 @@
+.difference{
+  position: relative;
+  min-height: 694px;
+  overflow-x: hidden;
+
+  &__image{
+    position: absolute;
+    left: 770px;
+    top: 0;
+    width: 1500px;
+    height: 694px;
+    background-image: url(../../images/difference/difference-background.png);
+    background-size: cover;
+  }
+
+  &-block{
+    width: 100%;
+  }
+
+  &__heading{
+    margin-top: 164px;
+    margin-bottom: 170px;
+    margin-left: 250px;
+    text-transform: uppercase;
+    font-family: $ff-Ubuntu-Light, sans-serif;
+    font-size: 40px;
+    color: $header-text;
+  }
+
+  &__slider{
+    width: 735px;
+    margin-bottom: 123px;
+
+    &__wrap-dots{
+      margin-left: auto;
+    }
+
+    &__dots{
+      display: flex;
+      width: 120px;
+      margin-top: 45px;
+    }
+
+    &-button:hover{
+      border-radius: 50%;
+      color: $grey-text;
+      background-color: #64a4d7;
+    }
+
+    &-button{
+      background-color: #99999918;
+      cursor: pointer;
+      padding: 6px 11px;
+      margin-right: 10px;
+      color: $grey-text;
+      font-family: $ff-Ubuntu-Medium,sans-serif;
+      border: none;
+    }
+  }
+}
+
+.difference__slide-title{
+  display: inline;
+  font-size: 28px;
+  color: $header-text;
+  font-family: $ff-Ubuntu-Light,sans-serif;
+}
+
+.difference__slide-article {
+  color: $grey-text;
+  width: 710px;
+  margin-top: 40px;
+  line-height: 1.7;
+}
+
+.chosen{
+  border-radius: 50%;
+  background-color: #64a4d7;
+  color: white;
+}

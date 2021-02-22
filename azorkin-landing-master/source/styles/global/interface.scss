@@ -1,0 +1,10 @@
+@import "vars";
+
+.body {
+  font-family: $ff-Ubuntu-Regular, sans-serif;
+  color:$grey-text;
+}
+
+.bg-secondary {
+  background-color: $bg-secondary;
+}

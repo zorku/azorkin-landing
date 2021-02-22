@@ -1,0 +1,73 @@
+.hero{
+  background: #fff url('../../images/background-main.jpg') no-repeat center top;
+  background-size: cover;
+  padding-top: 240px;
+  padding-bottom: 260px;
+  color: $white-text;
+
+  &__title{
+    width: 485px;
+    font-size: 52px;
+    text-transform: uppercase;
+    line-height: 1.7;
+    margin-bottom: 30px;
+    font-family: $ff-Ubuntu-Bold, sans-serif;
+  }
+
+  &__slogan{
+    font-size: 24px;
+    margin-bottom: 68px;
+    font-family: $ff-Ubuntu-Regular, sans-serif;
+  }
+
+  &__subtitle{
+    display: block;
+    margin-bottom: 37px;
+    font-size: 16px;
+    font-family: $ff-Ubuntu-Medium, sans-serif;
+
+    &-excerpt{
+      text-transform: uppercase;
+      margin-left: 5px;
+      padding: 9px 9px;
+      background-color: #ffce54;
+      border-radius: 6px;
+    }
+  }
+}
+
+.form{
+  width: 573px;
+  &__row{
+    display: flex;
+    margin-top: 37px;
+    justify-content: space-between;
+  }
+  &__input{
+    height: 54px;
+    width: 423px;
+    padding-left: 30px;
+    border: 1px solid #71b3e034;
+    border-radius: 7px;
+    font-size: 18px;
+    color: $grey-text;
+    font-family: $ff-Ubuntu-Light, sans-serif;
+  }
+  &__button:hover{
+    cursor: pointer;
+    background-color: $hover-button-green;
+  }
+  &__button{
+    font-family: $ff-Ubuntu-Regular, sans-serif;
+    padding: 21px 25px;
+    border-radius: 7px;
+    border: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: $button-green;
+  }
+}
+
+::-webkit-input-placeholder {
+  color: #323d5254;
+}
